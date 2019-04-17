@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My First Paragraph.</p>
+
+<p id="Javascript"></p>
+
+<script>
+document.getElementById("Javascript").innerHTML = "My First Script";
+</script>
+
+</body>
+</html> 
