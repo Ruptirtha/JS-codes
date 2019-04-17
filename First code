@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("Javascript").innerHTML = "Hi.";
+}
+</script>
+</head>
 <body>
 <h2>Welcome to my page</h2>
 <p>I am Ruprtirtha Mukherjee</p>
-<p id="Javascript"></p>
-    <script>
-      document.getElementById("Javascript").innerHTML = "My First Script";
-     </script>
+<p id="Javascript">Hello</p>
+<button type="button" onclick="myFunction()">Please click</button>
+    
 </body>
 </html> 
