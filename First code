@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <h2>Welcome to my page</h2>
-<p>I am Ruptirtha Mukherjee</p>
-
+<p>I am Ruprtirtha Mukherjee</p>
 <p id="Javascript"></p>
-
-<script>
-document.getElementById("Javascript").innerHTML = "My First Script";
-</script>
-
+    <script>
+      document.getElementById("Javascript").innerHTML = "My First Script";
+     </script>
 </body>
 </html> 
